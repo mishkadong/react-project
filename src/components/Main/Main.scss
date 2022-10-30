@@ -1,0 +1,13 @@
+.main {
+  grid-area: main;
+  display: grid;
+  &__title {
+    justify-self: center;
+  }
+  &__block {
+    padding: 20px;
+    &-title {
+    margin-bottom: 10px;
+    }
+  }
+}

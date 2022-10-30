@@ -1,0 +1,17 @@
+.footer {
+  grid-area: footer;
+  display: grid;
+  grid-template: [s] "contacts copyr" auto [r2]
+                [r2] "contacts date" auto [e] / 2fr 5fr;
+  &__copyright {
+    grid-area: copyr;
+  }
+  &__date {
+    grid-area: date;
+  }
+  &__copyright,
+  &__date {
+    text-align: end;
+    font-weight: 700;
+  }
+}

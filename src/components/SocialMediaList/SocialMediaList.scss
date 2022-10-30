@@ -1,0 +1,14 @@
+.contacts {
+  grid-area: contacts;
+  display: grid;
+  grid-auto-flow: column;
+  justify-self: start;
+  column-gap: 20px;
+  &__social-media-link {
+    display: grid;
+    & svg {
+      width: 40px;
+      height: 40px;
+    }
+  } 
+}

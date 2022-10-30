@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.app {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template: [s] "header header" auto [r2]
+                 [r2] "sidebar main" 1fr [r3]
+                 [r3] "footer footer" auto [e] / 2fr 5fr;
+  gap: 30px 20px;
+}

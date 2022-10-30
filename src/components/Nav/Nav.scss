@@ -1,0 +1,8 @@
+.header__nav {
+  text-align: center;
+  grid-area: nav;
+    &-list{
+    display: grid;
+    grid-auto-flow: column;
+    }
+  }

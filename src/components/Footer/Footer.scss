@@ -1,8 +1,9 @@
 .footer {
   grid-area: footer;
   display: grid;
-  grid-template: [s] "contacts copyr" auto [r2]
-                [r2] "contacts date" auto [e] / 2fr 5fr;
+  grid-template: [s] "rate-func rate-func copyr" auto [r2]
+                  [r2] "rate-class rate-class ." auto [r3]
+                [r3] "contacts date date" auto [e] / 2fr 5fr;
   &__copyright {
     grid-area: copyr;
   }

@@ -1,0 +1,14 @@
+.rating-stars-func {
+  display: grid;
+  grid-auto-flow: column;
+  grid-area: rate-func;
+  justify-content: start;
+  &__svg {
+    // border-radius: 80% 80% 40% 40% / 70% 70% 80% 80%;
+    color: rgb(233, 233, 233);
+  }
+  &__title {
+    align-self: center;
+    margin-left: 20px;
+  }
+}

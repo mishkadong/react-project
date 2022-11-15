@@ -8,8 +8,8 @@ function Footer() {
     <footer className="footer">
 
       <SocialMediaList />
-      <RatingStars />
-      <RatingStarClass />
+      <RatingStars  rate={5} />
+      <RatingStarClass  rate={5} />
       <span className="footer__copyright">copyright 2022</span>
       <span className="footer__date">
         {Date()}
